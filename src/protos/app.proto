@@ -1,0 +1,24 @@
+syntax = 'proto3';
+
+package app;
+
+service UserController {
+    rpc findById(options) returns(user);
+}
+
+message options {
+    string userId = 1;
+}
+
+message user {
+    string id = 1;
+    string firstName = 2;
+    string middleName = 3;
+    string lastName = 4;
+    string email = 5;
+    string password = 6;
+    string icon = 7;
+    string createdAt = 8;
+    string updatedAt = 9;
+    string age = 10;
+}

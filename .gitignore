@@ -1,0 +1,57 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+#packeges
+node_modules
+
+#app build
+dist
+
+#env
+*.env
+!template.env
+
+#database
+data
+
+#IDE
+.idea
+
+#Coverage Tests
+coverage
+
+#OrmConfig file
+ormconfig.json
+updateOrmConfig.js
+*.js
+
+#Graphql Generated Schema object
+schema.gpl
